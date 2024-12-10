@@ -1,6 +1,7 @@
 # "Flight Delay Analysis" <br>
 "Analyzes flight delays to identify peak times contributing factors" <br>
 The Flight Delay Analysis project is a web-based application designed to help users analyze and explore flight delays at major airports. The project provides a simple interface to filter flight data by airport and year, visualize trends, and gain insights into factors affecting flight schedules. <br>
+<br>
 GROUP MEMBERS :-<br>
 - Panchal Roshan   [ID :- KU2407U365] <br>
 - Aksh Patel       [ID :- KU2407U250] <br>
@@ -25,7 +26,6 @@ Table of Contents :-<br>
 - Contributing <br>
 <br>
 You’ll need the following tools to run the project :- <br>
-<br>
 - A web browser (Chrome, Firefox, Safari, etc.)<br>
 - A code editor (VSCode, Sublime Text, etc.)<br>
 <br>
@@ -39,12 +39,7 @@ EXECUTION STEPS :-<br> <br>
 - Train the machine learning model using the prepared dataset.<br>
 - Evaluate the model’s performance on test data.<br>
 - Deploy the project (if applicable) for user interaction.<br>
-- Document results and prepare for final presentation.<br> <br>
-Usage :- <br> <br>
-- Select Filters: Choose an airport and year from the dropdown menus in the "Explore Data" section to filter the flight data. <br>
-- Analyze Data: After selecting your desired filters, click the Analyze button to display the filtered flight delay data in a table. <br>
-- View Results: The table will dynamically update to show flights that match the selected filters. If no flights match, a message will appear indicating that no results were found.<br>
-- Interactive Visualizations: The "Interactive Charts" section is where you can add visual representations of the data (e.g., bar charts, pie charts). <br> 
+- Document results and prepare for final presentation.<br>
 <br>
 Attributes :- <br>
 - flightNumber: The flight's unique identification number. <br>
