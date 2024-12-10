@@ -14,7 +14,7 @@ Features :- <br>
 - Responsive Design: Optimized for both desktop and mobile devices. <br>
 <br>
 <br>
-Table of Contents :-
+Table of Contents :-<br>
 - Getting Started <br>
 - Installation <br>
 - Usage <br>
@@ -24,10 +24,7 @@ Table of Contents :-
 - License <br>
 - Contributing <br>
 <br>
-Getting Started <br>
-These instructions will help you set up the project on your local machine for development and testing. <br>
-Prerequisites <br>
-You’ll need the following tools to run the project:<br>
+You’ll need the following tools to run the project :- <br>
 <br>
 - A web browser (Chrome, Firefox, Safari, etc.)<br>
 - A code editor (VSCode, Sublime Text, etc.)<br>
@@ -43,19 +40,20 @@ EXECUTION STEPS :-<br> <br>
 - Evaluate the model’s performance on test data.<br>
 - Deploy the project (if applicable) for user interaction.<br>
 - Document results and prepare for final presentation.<br> <br>
-Usage<br>
-1. Select Filters: Choose an airport and year from the dropdown menus in the "Explore Data" section to filter the flight data. <br>
-2. Analyze Data: After selecting your desired filters, click the Analyze button to display the filtered flight delay data in a table. <br>
-3. View Results: The table will dynamically update to show flights that match the selected filters. If no flights match, a message will appear indicating that no results were found.<br>
-4. Interactive Visualizations: The "Interactive Charts" section is where you can add visual representations of the data (e.g., bar charts, pie charts). <br>
-Attributes:<br>
+Usage :- <br> <br>
+- Select Filters: Choose an airport and year from the dropdown menus in the "Explore Data" section to filter the flight data. <br>
+- Analyze Data: After selecting your desired filters, click the Analyze button to display the filtered flight delay data in a table. <br>
+- View Results: The table will dynamically update to show flights that match the selected filters. If no flights match, a message will appear indicating that no results were found.<br>
+- Interactive Visualizations: The "Interactive Charts" section is where you can add visual representations of the data (e.g., bar charts, pie charts). <br> 
+<br>
+Attributes :- <br>
 - flightNumber: The flight's unique identification number. <br>
 - origin: The airport where the flight originates. <br>
 - destination: The airport where the flight is heading. <br>
 - delay: The delay time in minutes. <br>
 - date: The date of the flight (format: YYYY-MM-DD). <br>
 <br>
-Technologies Used <br>
+Technologies Used :- <br>
 - HTML: The markup language used for the structure of the webpage. <br>
 - CSS: Styling language for creating a responsive and modern design. <br>
 - JavaScript: Handles the logic for filtering flight data and dynamically updating the page. <br>
