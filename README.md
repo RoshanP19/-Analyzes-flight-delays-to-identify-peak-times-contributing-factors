@@ -50,10 +50,9 @@ Attributes :- <br>
 <br>
 Technologies Used :- <br>
 - HTML: The markup language used for the structure of the webpage. <br>
+- main.py : Store the data. <br>
 - CSS: Styling language for creating a responsive and modern design. <br>
 - JavaScript: Handles the logic for filtering flight data and dynamically updating the page. <br>
-- Chart.js (Optional): A library for creating interactive charts and visualizations. <br>
-- Font Awesome: Used for icons. <br>
 
 
 <br>
