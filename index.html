@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Delay Analysis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Flight Delay Insights</h1>
+            <p>Discover patterns, trends, and causes of flight delays across airports worldwide.</p>
+        </div>
+    </header>
+    <main>
+        <section class="overview">
+            <h2>Project Overview</h2>
+            <p>
+                This project analyzes flight delays to identify peak times, contributing factors, and their overall impact. 
+                Use our interactive dashboard to explore the data and gain valuable insights.
+            </p>
+        </section>
+
+        <section class="filters">
+            <h2>Explore Data</h2>
+            <div class="filter-controls">
+                <label for="airport">Airport:</label>
+                <select id="airport">
+                    <option value="all">All</option>
+                    <option value="Ayodhya Airport">Ayodhya Airport</option>
+                    <option value="Chandigarh Airport">Chandigarh Airport</option>
+                    <option value="Delhi Airport">Delhi Airport</option>
+                </select>
+
+                <label for="year">Year:</label>
+                <select id="year">
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                </select>
+
+                <button onclick="filterData()">Analyze</button>
+            </div>
+            <div class="result-container">
+                <h3>Filtered Data</h3>
+                <table id="filtered-data-table">
+                    <thead>
+                        <tr>
+                            <th>Flight Number</th>
+                            <th>Origin</th>
+                            <th>Destination</th>
+                            <th>Delay (mins)</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="5">Select filters and click "Analyze" to view results.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="charts">
+            <h2>Interactive Charts</h2>
+            <div id="chart-container">
+                <p>Visualizations will appear here. Use the filters above to generate graphs.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Flight Insights. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
